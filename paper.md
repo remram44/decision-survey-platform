@@ -80,15 +80,15 @@ using the consistency-driven pairwise comparisons method (CDPC) which is
 primarily for multi-criteria decision making, such as the AHP. The
 AHP-software [@AHP-Software] is also used to solve the AHP in decision
 making and operation research. The spicelogic AHP Software
-[@AHP_Software] captures the AHP methodology
+[@AHP_Software-30] captures the AHP methodology
 
 Furthermore, open source software have been also developed for the AHP.
 More specifically, the AHP-OS [@AHP-OS] is a free web based AHP tool for
 decision making processes. The AHP with R [@AHP-R] is an R package to
 model complex decision making problems using AHP. There are also other
 efforts that suppoty part or the whole AHP algorithm such as
-[@Paulgovan], [@Andrugo], [@Airiyu], [@Humberoroa], [@Pvlhx],
-[@Hogivano].
+[@Paulgovan-ahp], [@Andrugo-ahp], [@Airiyu-ahp], [@Humberoroa-ahp], [@Pvlhx-ahp],
+[@Hogivano-ahp].
 
 Even though there are several software that support AHP there is no
 single solution that offers a web based platform which both
