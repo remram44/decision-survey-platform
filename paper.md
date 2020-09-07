@@ -165,7 +165,7 @@ description for each element. The administrator can edit the survey
 before publishing to users, by visiting the Edit and Publish Research
 link in the sidebar.
 
-![Create Survey.\label{fig:create_research}](screenshots/create_survey.png)
+![Create Survey.\label{fig:create_research}](screenshots/create_reserach.png)
 ![Create Criteria.\label{fig:create_criteria}](screenshots/create_criteria.png)
 ![Create Factors.\label{fig:create_factors}](screenshots/create_factors.png)
 ![Create Alternatives.\label{fig:create_alternatives}](screenshots/create_alternatives.png)
