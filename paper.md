@@ -206,7 +206,7 @@ derived from the eigenvectors, a ranking of the alternatives is
 calculated and the final ranking is displayed on the screen, according
 to the AHP.
 
-![Ranking of Alternatives.\label{fig:ranking_of_alternatives}](screenshots/ranking_of_alternatives.png)
+![Ranking of Alternatives.\label{fig:rankings_of_alternatives}](screenshots/rankings_of_alternatives.png)
 
 
 By clicking the Export button, we can get more detailed results in an
