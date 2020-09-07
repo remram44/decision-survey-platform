@@ -87,8 +87,8 @@ More specifically, the AHP-OS [@AHP-OS] is a free web based AHP tool for
 decision making processes. The AHP with R [@AHP-R] is an R package to
 model complex decision making problems using AHP. There are also other
 efforts that suppoty part or the whole AHP algorithm such as
-[@Paulgovan-ahp], [@Andrugo-ahp], [@Airiyu-ahp], [@Humberoroa-ahp], [@Pvlhx-ahp],
-[@Hogivano-ahp].
+[@Paulgovan], [@Andrugo], [@Airiyu], [@Humberoroa], [@Pvlhx],
+[@Hogivano].
 
 Even though there are several software that support AHP there is no
 single solution that offers a web based platform which both
