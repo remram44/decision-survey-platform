@@ -165,14 +165,11 @@ description for each element. The administrator can edit the survey
 before publishing to users, by visiting the Edit and Publish Research
 link in the sidebar.
 
-![Create Survey](create_research "fig:") [fig:create~s~urvey]
+![Create Survey.\label{fig:create_survey}](screenshots/create_survey.png)
+![Create Criteria.\label{fig:create_criteria}](screenshots/create_criteria.png)
+![Create Factors.\label{fig:create_factors}](screenshots/create_factors.png)
+![Create Alternatives.\label{fig:create_alternatives}](screenshots/create_alternatives.png)
 
-![Create Criteria](create_criteria "fig:") [fig:create~c~riteria]
-
-![Create Factors](create_factors "fig:") [fig:create~f~actors]
-
-![Create Alternatives](create_alternatives "fig:")
-[fig:create~a~lternatives]
 
 ## Assigning to users and publishing for answers
 
@@ -180,7 +177,7 @@ When the survey is created, the next step is to assign users to fill in
 the survey. This can be achieved by pressing the Set User to Research
 button in the sidebar.
 
-![Assign surveys to users](assign_to_user "fig:") [fig:assign~s~urveys]
+![Assign surveys to users.\label{fig:assign_to_user}](screenshots/assign_to_user.png)
 
 After that, we are ready to publish the survey. By clicking publish we
 are letting the system know that the survey is ready to receive answers.
@@ -191,7 +188,8 @@ complete a survey prematurely by visiting the Edit and Publish Research.
 When the survey is published a new button will appear that allows the
 administrator to complete the survey.
 
-![Edit, Publish Survey](publish "fig:") [fig:edit-publish]
+![Edit Publish Survey.\label{fig:publish}](screenshots/publish.png)
+
 
 ## Generating results of completed research
 
@@ -200,7 +198,7 @@ by the administrator, we can estimate and extract the results through
 the Extract Results button in the sidebar. The list of surveys that have
 been completed and results have not been extracted yet will be appeared.
 
-![Generate Results](generate_results "fig:") [fig:generate results]
+![Generate Results.\label{fig:generate_results}](screenshots/generate_results.png)
 
 Clicking on the link the calculation of the eigenvalues and eigenvectors
 will be performed for each user answer. Then based on the weights
@@ -208,13 +206,13 @@ derived from the eigenvectors, a ranking of the alternatives is
 calculated and the final ranking is displayed on the screen, according
 to the AHP.
 
-![Ranking of Alternatives](rankings_of_alternatives "fig:") [fig:ranking
-of alternatives]
+![Ranking of Alternatives.\label{fig:ranking_of_alternatives}](screenshots/ranking_of_alternatives.png)
+
 
 By clicking the Export button, we can get more detailed results in an
 Excel file.
 
-![Extract results](extract_to_excel "fig:") [fig:extract-to-excel]
+![Extract results.\label{fig:extract_to_excel}](screenshots/extract_to_excel.png)
 
 # User 
 
@@ -225,19 +223,16 @@ a ranking system.
 
 Example answers for an assigned survey are presented below.
 
-![User Answer Example 1](user_answer "fig:") [fig:user~a~nswer1]
-
-![User Answer Example 2](user_answer2 "fig:") [fig:user~a~nswer2]
-
-![User Answer Example 3](user_answer3 "fig:") [fig:user~a~nswer3]
-
-![User Answer Example 4](user_answer4 "fig:") [fig:user~a~nswer4]
+![User Answer Example 1.\label{fig:user_answer}](screenshots/user_answer.png)
+![User Answer Example 2.\label{fig:user_answer2}](screenshots/user_answer2.png)
+![User Answer Example 3.\label{fig:user_answer3}](screenshots/user_answer3.png)
+![User Answer Example 4.\label{fig:user_answer4](screenshots/user_answer4.png)
 
 In the Completed Researches tab. The user will see a list of completed
 researches. By clicking the link he will be able to download the results
 of the research.
 
-![Choose a research](previous_research "fig:") [fig:previous~r~esearch]
+![Choose a research.\label{fig:previous_research}](screenshots/previous_research.png)
 
 
 # References
