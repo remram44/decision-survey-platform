@@ -23,7 +23,7 @@ affiliations:
     index: 1
 
 date: 17 August 2020
-bibliography: paper.bibtex
+bibliography: paper.bib
 
 ---
 # Summary 
