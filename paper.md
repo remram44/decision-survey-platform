@@ -226,7 +226,7 @@ Example answers for an assigned survey are presented below.
 ![User Answer Example 1.\label{fig:user_answer}](screenshots/user_answer.png)
 ![User Answer Example 2.\label{fig:user_answer2}](screenshots/user_answer2.png)
 ![User Answer Example 3.\label{fig:user_answer3}](screenshots/user_answer3.png)
-![User Answer Example 4.\label{fig:user_answer4](screenshots/user_answer4.png)
+![User Answer Example 4.\label{fig:user_answer4}](screenshots/user_answer4.png)
 
 In the Completed Researches tab. The user will see a list of completed
 researches. By clicking the link he will be able to download the results
