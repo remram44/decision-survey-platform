@@ -32,35 +32,34 @@ The DecisiOn sUpport weB plaTform (NO-DOUBT) aims to assist in
 complicated multicriteria decision making problems, using the Analytic
 Hierarchy Process (AHP). The AHP has been used around the world in a
 wide variety of decision situations, in fields such as government,
-business, industry,healthcare, education, project management
-[@chan2006ahp],[@dede2010evaluation],[@drake1998using],[@lee2006investigating],[@liberatore2008analytic],[@saaty2003decision].
+business, industry, healthcare, education, project management
+[@chan2006ahp], [@dede2010evaluation], [@drake1998using], [@lee2006investigating], [@liberatore2008analytic], [@saaty2003decision].
 
-This application, extensively uses algorithms in order to solve a
-multicriteria problem, calculating weights for each criterion, factors
+This application extensively uses algorithms in order to solve a
+multicriteria problem, calculating weights for each criterion, factor
 (sub-criteria) that characterize the criteria, and the alternative
 solutions of a target. This online application was implemented by using
 PHP and HTML, an SQL database and Lapack libraries [@Lapack], which are
 used to calculate eigenvalues and eigenvectors that help evaluating the
-weights for each criteria, factors and alternatives.
+weights for each criterion, factor, and alternative.
 
-The NO-DOUBT tool offers a web based interface in order to create a
+The NO-DOUBT tool offers a web-based interface in order to create a
 survey, to determine a group of users who participate in the survey, to
 collect responses, and export results. In this context, this platform
 not only supports the AHP methodology but also the user administration,
-the surveys development, the definition of decision making problems.
+the surveys' development, and the definition of decision-making problems.
 Each user has the opportunity to participate in a survey and view the
 results of previous surveys. Towards this end, there are two different
-interfaces, these of administrator and user with separate
-functionalities. The tool’s implementation demonstrates the convenience
-that a decision maker can conduct a survey through a decision-making
+interfaces with separate functionalities, one for administrators and one for users. The tool’s implementation demonstrates the convenience
+that a decision-maker can conduct a survey through a decision-making
 service, using simple data forms and programming structures.
 Furthermore, through this service, materialized algorithms of
 decision-making based on AHP are provided, in order to help finding the
 optimal solution in a rapid and easy way.
 
-This tool is a web based supporting tool for decision making that can be
-helpful both for daily simple decision problems and complex decision
-making problems in every day life, organizations, academia and
+This tool is a web-based supporting tool for decision making that can be
+helpful both for daily simple decision-making problems and complex
+decision-making problems in every day life, organizations, academia and
 industries.
 
 # Statement of Need 
@@ -68,30 +67,29 @@ industries.
 Inspection of previous efforts reveals that there is a variety of tools
 that support the AHP methodology either commercial or open source (OSS).
 
-For example, super decisions software [@Superdecisions] is a free
+For example, Super Decisions software [@Superdecisions] is a free
 educational software. It is the only free educational software that
-implements AHP and was developed by the team of the creator of the
-method, Thomas Saaty. Its development and maintenance is sponsored by
-Creative Decisions Foundation. Moreover, the expert choice
-[@Expertchoice] combine collaborative team tools and proven mathematical
-techniques based on decision making methods such as the AHP. The
-concluder [@Concluder] is a simple tool for complex decision making
+implements AHP and was developed by the method's creator, Tomas Saaty, and his team. Its development and maintenance is sponsored by
+the Creative Decisions Foundation. Moreover, Expert Choice
+[@Expertchoice] combines collaborative team tools and proven mathematical
+techniques based on decision-making methods such as the AHP. The
+Concluder [@Concluder] is a simple tool for complex decision making
 using the consistency-driven pairwise comparisons method (CDPC) which is
 primarily for multi-criteria decision making, such as the AHP. The
-AHP-software [@AHP-Software] is also used to solve the AHP in decision
-making and operation research. The spicelogic AHP Software
+AHP-Software [@AHP-Software] is also used to solve the AHP in decision
+making and operation research. The SpiceLogic AHP Software
 [@AHP_Software-30] captures the AHP methodology
 
-Furthermore, open source software have been also developed for the AHP.
+Furthermore, open source software has been also developed for the AHP.
 More specifically, the AHP-OS [@AHP-OS] is a free web based AHP tool for
 decision making processes. The AHP with R [@AHP-R] is an R package to
 model complex decision making problems using AHP. There are also other
-efforts that suppoty part or the whole AHP algorithm such as
+efforts that support part or the whole AHP algorithm such as
 [@Paulgovan], [@Andrugo], [@Airiyu], [@Humberoroa], [@Pvlhx],
 [@Hogivano].
 
-Even though there are several software that support AHP there is no
-single solution that offers a web based platform which both
+Even though there are several software applications that support AHP there is no
+single solution that offers a web-based platform with both
 administrator and user functionalities. Most of the already developed
 AHP software integrate only the AHP algorithm. The NO-DOUBT tool
 supports the development of surveys, the management of users
@@ -99,20 +97,20 @@ supports the development of surveys, the management of users
 with extraction functionalities for further use of the results. There
 are many directions for future expansion of this tool. Towards this end,
 the authors have already begun to incorporate their research
-contributions in the field of decision making and more specifically, the
+contributions in the field of decision-making and more specifically, the
 estimation of the probability of rank reversal in order to investigate
 the stability of the final
-outcomes[@dede2015convergence],[@dede2016theoretical].
+outcomes [@dede2015convergence], [@dede2016theoretical].
 
 # AHP Methodology 
 
-AHP is a multi-criteria decision making methodology which adopts a
+AHP is a multi-criteria decision-making methodology which adopts a
 hierarchical form using three conceptual levels. In the first level, the
 objective is defined (e.g. the evaluation of technologies for home
 networking based on a set of alternative solutions). In the next level,
 we identify a number of criteria $N$ on which our evaluation will be
-based. Each criterion $C_k$ is an important aspect of the decision
-making problem and is further identified by its factors at the third
+based. Each criterion $C_k$ is an important aspect of the decision-making
+problem and is further identified by its factors at the third
 level of the hierarchy. A factor $F_{j_k}$ is an indicative attribute
 that characterizes a criterion (e.g., downstream throughput is a factor
 of performance criterion for home networking technologies).
@@ -131,7 +129,7 @@ matrix.
 
 A similar procedure is followed for the estimation of the weights of the
 factors $f_{jk}$ of each criterion. Finally, the alternatives are
-pairwise compared according to each factor and for each alternative
+compared pairwise according to each factor and for each alternative
 $A_i$ one obtains the relative scores $S_{ijk}$ under factor $F_{jk}$.
 The final ranking priorities $T_i$ of each alternative are evaluated by
 multiplying the relative scores $S_{ijk}$ by the overall weight
@@ -141,10 +139,10 @@ $$T_i=\sum_{k=1}^{N}\sum_{j=1}^{J_k}S_{ijk} f_{jk} w_k$$
 
 # Functionalities 
 
-The NO-DOUBT tool is user friendly with clear and easy to follow
+The NO-DOUBT tool is user-friendly with clear and easy-to-follow
 procedures. The site is separated by user and administrator accounts.
-The administrator can create, modify and delete surveys, assign users to
-answer a survey and extract research results based on the user answers.
+The administrator can create, modify, and delete surveys, assign users to
+answer a survey, and extract research results based on the users' answers.
 On the other hand a user can register and answer an assigned survey as
 well as view his judgments and results.
 
@@ -159,7 +157,7 @@ main screen as presented below:
 
 The administrator will have to complete a series of simple forms for the
 creation of a survey. The AHP methodology requires the survey to have at
-least one criterion, at least one factor for each criterion and at least
+least one criterion, at least one factor for each criterion, and at least
 one alternative. The administrator will have to provide the name and a
 description for each element. The administrator can edit the survey
 before publishing to users, by visiting the Edit and Publish Research
@@ -182,10 +180,10 @@ button in the sidebar.
 After that, we are ready to publish the survey. By clicking publish we
 are letting the system know that the survey is ready to receive answers.
 Once the survey is published it cannot be edited anymore. By default, a
-survey is considered complete when the end date, during the creation of
-the survey, has passed. The administrator has the possibility to
-complete a survey prematurely by visiting the Edit and Publish Research.
-When the survey is published a new button will appear that allows the
+survey is considered complete when the end date, selected during the creation of
+the survey, has come. The administrator has the possibility to
+end a survey prematurely by visiting the Edit and Publish Research.
+When the survey is published, a new button will appear that allows the
 administrator to complete the survey.
 
 ![Edit Publish Survey.\label{fig:publish}](screenshots/publish.png)
@@ -193,15 +191,15 @@ administrator to complete the survey.
 
 ## Generating results of completed research
 
-When a survey is complete, either by passing the end date, or manually
-by the administrator, we can estimate and extract the results through
+When a survey is complete, either because it reached the end date or was manually
+stopped by the administrator, we can estimate and extract the results through
 the Extract Results button in the sidebar. The list of surveys that have
-been completed and results have not been extracted yet will be appeared.
+been completed and whose results have not yet been extracted will appear.
 
 ![Generate Results.\label{fig:generate_results}](screenshots/generate_results.png)
 
-Clicking on the link the calculation of the eigenvalues and eigenvectors
-will be performed for each user answer. Then based on the weights
+After clicking on the link the calculation of the eigenvalues and eigenvectors
+will be performed for each user's answer. Then based on the weights
 derived from the eigenvectors, a ranking of the alternatives is
 calculated and the final ranking is displayed on the screen, according
 to the AHP.
@@ -228,8 +226,8 @@ Example answers for an assigned survey are presented below.
 ![User Answer Example 3.\label{fig:user_answer3}](screenshots/user_answer3.png)
 ![User Answer Example 4.\label{fig:user_answer4}](screenshots/user_answer4.png)
 
-In the Completed Researches tab. The user will see a list of completed
-researches. By clicking the link he will be able to download the results
+In the Completed Researches tab, the user will see a list of completed
+researches. By clicking the link they will be able to download the results
 of the research.
 
 ![Choose a research.\label{fig:previous_research}](screenshots/previous_research.png)
