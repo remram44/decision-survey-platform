@@ -50,10 +50,10 @@ not only supports the AHP methodology but also the user administration,
 the surveys' development, and the definition of decision-making problems.
 Each user has the opportunity to participate in a survey and view the
 results of previous surveys. Towards this end, there are two different
-interfaces with separate functionalities, one for administrators and one for users. The tool’s implementation demonstrates the convenience
-that a decision-maker can conduct a survey through a decision-making
+interfaces with separate functionalities, one for administrators and one for users. ~The tool’s implementation demonstrates the convenience
+that~ a decision-maker can conduct a survey through a decision-making
 service, using simple data forms and programming structures.
-Furthermore, through this service, materialized algorithms of
+Furthermore, through this service, ~materialized algorithms~ of
 decision-making based on AHP are provided, in order to help finding the
 optimal solution in a rapid and easy way.
 
@@ -78,7 +78,7 @@ using the consistency-driven pairwise comparisons method (CDPC) which is
 primarily for multi-criteria decision making, such as the AHP. The
 AHP-Software [@AHP-Software] is also used to solve the AHP in decision
 making and operation research. The SpiceLogic AHP Software
-[@AHP_Software-30] captures the AHP methodology
+[@AHP_Software-30] captures the AHP methodology ~???~
 
 Furthermore, open source software has been also developed for the AHP.
 More specifically, the AHP-OS [@AHP-OS] is a free web based AHP tool for
@@ -117,7 +117,7 @@ of performance criterion for home networking technologies).
 
 In order to rate the alternative solutions, one must first evaluate the
 weights of the criteria $w_k$ and the factors $f_{j_k}$. Toward this
-end, each expert $m$ performs a series of PWCs by filling out a table
+end, each expert $m$ performs a series of ~PWCs~ by filling out a table
 containing the upper triangular elements based on a certain scale (e.g.
 the nine level scale). The diagonal elements of the PWC are set equal to
 one, while the lower triangular elements are calculated as the
